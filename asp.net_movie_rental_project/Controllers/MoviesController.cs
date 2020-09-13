@@ -12,7 +12,8 @@ namespace asp.net_movie_rental_project.Controllers
         public ActionResult Random()
         {
             Movie movie = new Movie() { name = "Under Siege", id = 1 };
-            return  View();
+            return  View(movie);
         }
+
     }
 }
